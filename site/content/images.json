@@ -1,0 +1,36 @@
+[
+  {
+    "slug": "hiking",
+    "name": "Hiking",
+    "description": "TODO: describe this collection.",
+    "images": [
+      {
+        "src": "/images/hiking/TODO-replace-me.jpg",
+        "alt": "TODO: describe this image for accessibility",
+        "caption": "TODO"
+      }
+    ]
+  },
+  {
+    "slug": "boxing",
+    "name": "Boxing",
+    "description": "TODO: describe this collection.",
+    "images": [
+      {
+        "src": "/images/boxing/TODO-replace-me.jpg",
+        "alt": "TODO: describe this image for accessibility"
+      }
+    ]
+  },
+  {
+    "slug": "studio",
+    "name": "Studio",
+    "description": "TODO: describe this collection.",
+    "images": [
+      {
+        "src": "/images/studio/TODO-replace-me.jpg",
+        "alt": "TODO: describe this image for accessibility"
+      }
+    ]
+  }
+]

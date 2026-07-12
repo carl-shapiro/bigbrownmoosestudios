@@ -1,0 +1,19 @@
+[
+  {
+    "name": "example-project-one",
+    "url": "https://github.com/TODO/example-project-one",
+    "description": "TODO: one or two sentences describing what this project does and why you built it.",
+    "tags": ["TypeScript"]
+  },
+  {
+    "name": "example-project-two",
+    "url": "https://github.com/TODO/example-project-two",
+    "description": "TODO: one or two sentences describing what this project does and why you built it.",
+    "tags": ["Python"]
+  },
+  {
+    "name": "example-project-three",
+    "url": "https://github.com/TODO/example-project-three",
+    "description": "TODO: one or two sentences describing what this project does and why you built it."
+  }
+]

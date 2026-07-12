@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "example-ep",
+    "title": "Example EP",
+    "description": "TODO: describe this release — instrumentation, when it was made, what it's about.",
+    "spotifyEmbedUrl": "https://open.spotify.com/embed/album/TODO"
+  },
+  {
+    "slug": "home-demos",
+    "title": "Home Demos",
+    "description": "TODO: describe this project. No Spotify link means this section renders description-only — remove spotifyEmbedUrl entirely (don't leave it empty) for any project without a Spotify presence."
+  }
+]

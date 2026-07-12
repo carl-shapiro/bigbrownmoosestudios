@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Email",
+    "value": "carl@bigbrownmoosestudios.com",
+    "href": "mailto:carl@bigbrownmoosestudios.com"
+  },
+  {
+    "label": "GitHub",
+    "value": "github.com/TODO",
+    "href": "https://github.com/TODO"
+  },
+  {
+    "label": "LinkedIn",
+    "value": "linkedin.com/in/TODO",
+    "href": "https://linkedin.com/in/TODO"
+  }
+]
