@@ -36,6 +36,8 @@ export interface AboutContent {
   /** One-line teaser used on the landing page tile. */
   teaser: string;
   paragraphs: string[];
+  /** Optional portrait shown next to the heading on the About page. */
+  image?: ImageItem;
 }
 
 export interface ProfessionalContent {

@@ -1,5 +1,9 @@
 {
   "teaser": "Shenandoah Valley native, software engineer, musician, and lifelong maker who enjoys turning ideas into reality through code, creativity, and curiosity.",
+  "image": {
+    "src": "/images/about/mid-20s-abstract.jpg",
+    "alt": "Just a placeholder until I can get a better photo of myself."
+  },
   "paragraphs": [
   "Hi, I'm Carl.",
   "I'm a software and DevOps engineer by profession, a musician by instinct, and a maker because I can't seem to help myself.",
