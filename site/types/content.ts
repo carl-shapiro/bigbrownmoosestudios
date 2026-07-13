@@ -17,6 +17,8 @@ export interface ImageItem {
   src: string;
   alt: string;
   caption?: string;
+  /** Set to "video" to render this entry as an MP4 player instead of an image. Defaults to "image". */
+  type?: "image" | "video";
 }
 
 export interface ImageCollection {
@@ -24,6 +26,8 @@ export interface ImageCollection {
   name: string;
   description: string;
   images: ImageItem[];
+  /** Set to true to keep this collection in the file but skip rendering it (e.g. still a TODO). */
+  hidden?: boolean;
 }
 
 export interface ContactMethod {

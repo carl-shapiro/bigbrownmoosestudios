@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import ImageGallery from "@/components/ImageGallery";
 import SectionCard from "@/components/SectionCard";
 import { imageCollections } from "@/lib/content";
 
@@ -16,25 +16,7 @@ export default function ImagesPage() {
           <SectionCard key={collection.slug} title={collection.name}>
             <p>{collection.description}</p>
             {collection.images.length > 0 && (
-              <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3">
-                {collection.images.map((image) => (
-                  <figure key={image.src}>
-                    <div className="relative aspect-square overflow-hidden rounded-lg bg-neutral-100 dark:bg-neutral-900">
-                      <Image
-                        src={image.src}
-                        alt={image.alt}
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                    {image.caption && (
-                      <figcaption className="mt-1 text-xs text-neutral-500">
-                        {image.caption}
-                      </figcaption>
-                    )}
-                  </figure>
-                ))}
-              </div>
+              <ImageGallery images={collection.images} />
             )}
           </SectionCard>
         ))}

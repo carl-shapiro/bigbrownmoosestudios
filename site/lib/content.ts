@@ -18,4 +18,10 @@ export const professional: ProfessionalContent = professionalJson;
 export const contactMethods: ContactMethod[] = contactJson;
 export const repos: Repo[] = reposJson;
 export const musicProjects: MusicProject[] = musicJson;
-export const imageCollections: ImageCollection[] = imagesJson;
+// JSON imports widen string literals (e.g. `type: "video"`) to plain
+// `string`, so ImageItem's `type` union needs an explicit assertion here.
+// Filtered here (not in each page) so both the Images page and the landing
+// tile's preview automatically skip collections marked `hidden`.
+export const imageCollections: ImageCollection[] = (
+  imagesJson as ImageCollection[]
+).filter((collection) => !collection.hidden);
