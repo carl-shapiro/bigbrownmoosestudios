@@ -9,9 +9,10 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <main className="mx-auto flex w-full max-w-4xl flex-1 flex-col gap-6 px-6 py-16 sm:py-24">
-      <div className="flex flex-col items-start gap-6 sm:flex-row sm:items-center">
+      <h1 className="text-4xl font-semibold tracking-tight">About</h1>
+      <div className="text-neutral-700 dark:text-neutral-300">
         {about.image && (
-          <div className="relative h-40 w-40 shrink-0 overflow-hidden rounded-xl bg-neutral-100 dark:bg-neutral-900">
+          <div className="relative mb-6 h-72 w-full overflow-hidden rounded-xl bg-neutral-100 sm:float-right sm:ml-8 sm:w-80 dark:bg-neutral-900">
             <Image
               src={about.image.src}
               alt={about.image.alt}
@@ -20,12 +21,12 @@ export default function AboutPage() {
             />
           </div>
         )}
-        <h1 className="text-3xl font-semibold tracking-tight">About</h1>
-      </div>
-      <div className="flex flex-col gap-4 text-neutral-700 dark:text-neutral-300">
         {about.paragraphs.map((paragraph, index) => (
-          <p key={index}>{paragraph}</p>
+          <p key={index} className="mb-4 last:mb-0">
+            {paragraph}
+          </p>
         ))}
+        <div className="clear-both" />
       </div>
     </main>
   );

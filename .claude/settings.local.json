@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Skill(run)",
-      "Skill(run:*)"
+      "Skill(run:*)",
+      "Bash(npm run *)",
+      "Read(//private/tmp/pw-scratch/**)",
+      "Bash(node -e ' *)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(curl -sf http://localhost:3000)"
     ]
   }
 }
