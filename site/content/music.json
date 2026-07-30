@@ -26,8 +26,14 @@
   {
     "slug": "masked-queens",
     "title": "Masked Queens",
-    "description": "When your childhood friend comes to you and asks 'hey, wanna be in a drag punk rock band with me?' and you say anything other than 'why aren't we already in a drag punk rock band together?', did you really have a childhood friend or were you just imagining it?",
+    "description": "When your childhood friend comes to you and asks 'hey, wanna be in a drag punk rock band with me?' and you answer with anything other than 'why aren't we already in a drag punk rock band together?', did you really have a childhood friend or were you just imagining it?",
     "youtubeEmbedUrl": "https://www.youtube.com/embed/hlvVidANAF8?si=T5jNkEYN1rt7Zb3U"
+  },
+  {
+    "slug": "family-band",
+    "title": "Shapiro Jazz Trio",
+    "description": "Things ain't what they used to be, amirite?",
+    "youtubeEmbedUrl": "https://www.youtube.com/embed/a3trtCEtyl8?si=hIJUowGxhvD8v3kJU"
   }
   
 ]
