@@ -13,6 +13,8 @@ export interface MusicProject {
   spotifyEmbedUrl?: string;
   /** Omit for projects with no SoundCloud presence. */
   soundcloudEmbedUrl?: string;
+  /** Omit for projects with no YouTube presence. */
+  youtubeEmbedUrl?: string;
 }
 
 export interface ImageItem {
