@@ -79,12 +79,44 @@
   {
     "slug": "hiking",
     "name": "Hiking",
-    "description": "TODO: describe this collection.",
-    "hidden": true,
+    "description": "Pictures from various hikes I've taken. I typically go hiking with my sister and she takes the pictures, but occsionally I'll have my phone on me and take a picture or two.",    
     "images": [
       {
-        "src": "/images/hiking/TODO-replace-me.jpg",
-        "alt": "TODO: describe this image for accessibility"
+        "src": "/images/hiking/little-schloss-1.jpg",
+        "alt": "View of Little Schloss during a hike."
+      },
+      {
+        "src": "/images/hiking/little-schloss-2.jpg",
+        "alt": "Another view of Little Schloss during a hike."
+      },
+      {
+        "src": "/images/hiking/little-schloss-3.jpg",
+        "alt": "A different angle of Little Schloss during a hike. There was a school group of kids on the trail. It was a bit crowded, but it was nice to see them out enjoying nature."
+      },
+      {
+        "src": "/images/hiking/fire-tower-1.jpg",
+        "alt": "View from a fire tower in northern Shenandoah County during a hike."
+      },
+      {
+        "src": "/images/hiking/fire-tower-2.jpg",
+        "alt": "Another view from the fire tower in northern Shenandoah County during a hike."
+      },
+      {
+        "src": "/images/hiking/saint-marys-falls.mp4",
+        "alt": "Video of the stream that runs through Saint Mary's Falls. It's a great swimming spot, but can get crowded during the warmer months",
+        "type": "video"
+      },
+      {
+        "src": "/images/hiking/humpback-rocks-1.jpg",
+        "alt": "I think this is humpback rocks, but I can't remember for sure. It was a nice hike, and the view from the top was great."
+      },
+      {
+        "src": "/images/hiking/humpback-rocks-2.jpg",
+        "alt": "Another view from the top of Humpback Rocks during the hike."
+      },
+      {
+        "src": "/images/hiking/shenandoah-county.jpg",
+        "alt": "My sister lives on a large undeveloped property in Shenandoah County, Virginia. We're able to go on short hikes around her property from time to time. This is a view of Persimmon Hill."
       }
     ]
   },
