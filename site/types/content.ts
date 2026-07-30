@@ -11,6 +11,8 @@ export interface MusicProject {
   description: string;
   /** Omit for projects with no Spotify presence — renders description-only. */
   spotifyEmbedUrl?: string;
+  /** Omit for projects with no SoundCloud presence. */
+  soundcloudEmbedUrl?: string;
 }
 
 export interface ImageItem {

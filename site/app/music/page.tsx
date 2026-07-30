@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import SectionCard from "@/components/SectionCard";
 import SpotifyEmbed from "@/components/SpotifyEmbed";
+import SoundCloudEmbed from "@/components/SoundCloudEmbed";
 import { musicProjects } from "@/lib/content";
 
 export const metadata: Metadata = {
@@ -17,6 +18,9 @@ export default function MusicPage() {
             <p>{project.description}</p>
             {project.spotifyEmbedUrl && (
               <SpotifyEmbed embedUrl={project.spotifyEmbedUrl} />
+            )}
+            {project.soundcloudEmbedUrl && (
+              <SoundCloudEmbed embedUrl={project.soundcloudEmbedUrl} />
             )}
           </SectionCard>
         ))}

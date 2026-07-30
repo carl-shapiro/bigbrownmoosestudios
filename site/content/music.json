@@ -1,13 +1,32 @@
 [
-  {
-    "slug": "example-ep",
-    "title": "Example EP",
-    "description": "TODO: describe this release — instrumentation, when it was made, what it's about.",
-    "spotifyEmbedUrl": "https://open.spotify.com/embed/album/TODO"
+    {
+    "slug": "cart-pusher",
+    "title": "Cart Pusher 2k2",
+    "description": "16 year old me making soungs for my friends using a cracked version of fruity loops 2 that I aquired by trading my wisdom teeth pain meds for a copy of the software. I was a very resourceful kid.",
+    "soundcloudEmbedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A13420659&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
   },
   {
-    "slug": "home-demos",
-    "title": "Home Demos",
-    "description": "TODO: describe this project. No Spotify link means this section renders description-only — remove spotifyEmbedUrl entirely (don't leave it empty) for any project without a Spotify presence."
+    "slug": "metreon-cascade",
+    "title": "Metreon Cascade",
+    "description": "Newer project. Less of a project but more of a place to upload my experiments with VCV rack, generative music and modular synthesis. ",
+    "soundcloudEmbedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A1716374151&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+  },
+  {
+    "slug": "awp",
+    "title": "Amateur Western Pleasure",
+    "description": "Amateur Western Pleasure - A basement band project with a few old friends of mine. Bass and Keyboards",
+    "spotifyEmbedUrl": "https://open.spotify.com/artist/0GZy06G8QNzmddhqJMY0qB?si=-AcoU59ASQ-89K9VIdM3JQ"
+  },
+  {
+    "slug": "shapiro",
+    "title": "Shapiro",
+    "description": "Shapiro - What I spent the former and latter parts of my 20s working on. Swing for the fences, never know what you're gonna hit...",
+    "spotifyEmbedUrl": "https://open.spotify.com/artist/21gOR3d7du5mY63wuoIWRK?si=xLM4GUAaRiKwBeirOefWxQ"
   }
 ]
+
+
+
+
+
+  

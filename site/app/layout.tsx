@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist_Mono, Sora, Space_Grotesk } from "next/font/google";
+import { Geist_Mono, Rye, Sora, Space_Grotesk } from "next/font/google";
 import SiteHeader from "@/components/SiteHeader";
 import "./globals.css";
 
@@ -18,6 +18,12 @@ const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
 });
 
+const rye = Rye({
+  variable: "--font-rye",
+  weight: "400",
+  subsets: ["latin"],
+});
+
 export const metadata: Metadata = {
   title: "Big Brown Moose Studios",
   description: "Code, music, and other projects.",
@@ -31,7 +37,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistMono.variable} ${sora.variable} ${spaceGrotesk.variable} h-full antialiased`}
+      className={`${geistMono.variable} ${sora.variable} ${spaceGrotesk.variable} ${rye.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
         <SiteHeader />
