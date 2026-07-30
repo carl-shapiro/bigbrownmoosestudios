@@ -8,19 +8,19 @@
         "src": "/images/modular_rack_build/modular-rack-build-1.jpg",
         "alt": "In progress photo of the modular rack build, showing the wooden housing for the metal racks."
       },
-            {
+      {
         "src": "/images/modular_rack_build/modular-rack-build-2.jpg",
         "alt": "Another in progress photo, before the top of the housing was added."
       },
-            {
+      {
         "src": "/images/modular_rack_build/modular-rack-build-3.jpg",
         "alt": "Finished modular rack housing; the top row of of the rack is now nearly filled."
       },
-            {
+      {
         "src": "/images/modular_rack_build/modular-rack-build-4.jpg",
         "alt": "Another angle; to make the emblem on the side, I used a router to carve it into the wood then used a wood burning tool to darken the lines."
       },
-            {
+      {
         "src": "/images/modular_rack_build/modular-rack-build-5.jpg",
         "alt": "The other side of the modular rack housing, showing the emblem and the finished wood."
       },
@@ -135,12 +135,32 @@
   {
     "slug": "studio",
     "name": "Studio",
-    "description": "TODO: describe this collection.",
-    "hidden": true,
+    "description": "Various pictures of my old 'home studio. Currently in the process of moving to a new location, so this collection will be updated with new pictures in the future.",    
     "images": [
       {
-        "src": "/images/studio/TODO-replace-me.jpg",
-        "alt": "TODO: describe this image for accessibility"
+        "src": "/images/studio/studio-1.jpg",
+        "alt": "Messing around with the modular rack; I'm using ableton to send midi to the modular synth via a midi to cv converter from Jake's Custom Shop. That dude makes kinda the best stuff."
+      },
+      {
+        "src": "/images/studio/studio-2.mp4",
+        "alt": "Tooling around with midi controllers and Ableton, trying to learn how to use them together",
+        "type": "video"
+      },
+      {
+        "src": "/images/studio/studio-3.jpg",
+        "alt": "Picture of that same midi setup. Space is a bit of premium on my desk as it's also used for gaming and my job..."
+      },
+      {
+        "src": "/images/studio/studio-5.jpg",
+        "alt": "A rat's nest of cables and wires. I think I was just trying to see how many different ways I could connect the midi controllers and route the audio signal."
+      },
+      {
+        "src": "/images/studio/studio-6.jpg",
+        "alt": "A view of the rest of the office/studio"
+      },
+    {
+        "src": "/images/studio/studio-7.jpg",
+        "alt": "Another view of the rest of the office/studio"
       }
     ]
   }
